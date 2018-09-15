@@ -23,3 +23,15 @@ Install a prettier extension in your IDE to also format directly from there.
 
 Install an eslint plugin in your IDE to visualize lint errors before they appear in console.
 
+## Flow
+
+[flow](https://flow.org/) is configured in the project. Add:
+
+```
+// @flow
+```
+
+at the beginning of all JS files to enable type checking.
+
+Install a flow extension in your IDE and make sure to add types when requested.
+Refrain from using `any` and do not commit code with flow errors.
