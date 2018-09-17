@@ -1,13 +1,13 @@
 // @flow
 import React from 'react'
+import styled from 'styled-components'
 
-const dotStyle = {
-  border: '3px solid #4FAFBB',
-  borderRadius: '50%',
-  backgroundColor: '#FFFFFF',
-  width: 16,
-  height: 16,
-}
+const Dot = styled.div`
+  border: 3px solid #4fafbb;
+  border-radius: 50%;
+  background-color: #ffffff;
+  width: 16px;
+  height: 16px;
+`
 
-const Dot = () => <div style={dotStyle} />
-export default Dot
+export default () => <Dot />
